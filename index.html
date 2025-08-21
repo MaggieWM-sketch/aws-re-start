@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS re/Start Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="slide-counter">
+            <span id="currentSlide">1</span> / <span id="totalSlides">7</span>
+        </div>
+
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <div class="aws-logo">☁️</div>
+            <h1>AWS re/Start</h1>
+            <div class="highlight">
+                <p>Your Gateway to Cloud Computing Careers</p>
+            </div>
+            <p style="font-size: 1.1em; margin-top: 30px;">A 3-minute journey into the future of tech</p>
+        </div>
+
+        <!-- Slide 2: What is AWS re/Start -->
+        <div class="slide">
+            <h2>What is AWS re/Start? 🚀</h2>
+            <div class="highlight">
+                <p>A FREE full-time, 12-week cloud computing program</p>
+            </div>
+            <ul>
+                <li>💼 Designed for unemployed or underemployed individuals</li>
+                <li>🎯 No prior tech experience required</li>
+                <li>📚 Hands-on training in cloud computing fundamentals</li>
+                <li>🤝 Direct pathway to cloud careers with top employers</li>
+                
+            </ul>
+        </div>
+
+        <!-- Slide 3: Program Modules -->
+        <div class="slide">
+            <h2>What You'll Learn 📖</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon">☁️</div>
+                    <h3>Cloud Fundamentals</h3>
+                    <p>AWS Core Services & Architecture</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🔒</div>
+                    <h3>Security</h3>
+                    <p>Cloud Security & Best Practices</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🌐</div>
+                    <h3>Networking</h3>
+                    <p>Virtual Networks & Connectivity</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">💾</div>
+                    <h3>Storage & Databases</h3>
+                    <p>Data Management Solutions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Focus Service - Amazon S3 -->
+        <div class="slide">
+            <h2>Spotlight: Amazon S3 📦</h2>
+            <div class="service-demo">
+                <h3>Simple Storage Service</h3>
+                <p><strong>What is it?</strong> Think of it as an unlimited digital storage locker in the cloud</p>
+            </div>
+            <ul>
+                <li>📱 <strong>Your Photos:</strong> Like Google Photos, but for businesses</li>
+                <li>🎬 <strong>Netflix:</strong> Stores movies and TV shows you stream</li>
+                <li>🏥 <strong>Healthcare:</strong> Securely stores patient records</li>
+                <li>🏫 <strong>Schools:</strong> Backs up student data and resources</li>
+                <li>💼 <strong>Businesses:</strong> Disaster recovery and file sharing</li>
+            </ul>
+        </div>
+
+        <!-- Slide 5: Real-World S3 Example -->
+        <div class="slide">
+            <h2>S3 in Action: Your Daily Life 🌟</h2>
+            <div class="highlight">
+                <p>"Ever wondered how Instagram stores billions of photos?"</p>
+            </div>
+            <div class="service-demo">
+                <h3>When you upload a photo to Instagram:</h3>
+                <p>📸 Photo goes to Amazon S3</p>
+                <p>🌍 Automatically copied to multiple locations worldwide</p>
+                <p>⚡ Instantly available to your friends globally</p>
+                <p>💾 Never lost, even if one data center fails</p>
+                <p>💰 Instagram only pays for what they use</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Why This Matters -->
+        <div class="slide">
+            <h2>Why Cloud Computing? 🌈</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon">📈</div>
+                    <h3>Growing Industry</h3>
+                    <p>Cloud market grows 15% yearly</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">💼</div>
+                    <h3>Job Security</h3>
+                    <p>High demand, low supply of skilled workers</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🏠</div>
+                    <h3>Remote Work</h3>
+                    <p>Work from anywhere in the world</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🎓</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Always evolving, never boring</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Call to Action -->
+        <div class="slide">
+            <h2>Your Cloud Journey Starts Here! ✨</h2>
+            <div class="highlight">
+                <p>AWS re/Start = Your ticket to a $50K+ tech career</p>
+            </div>
+            <div class="service-demo">
+                <h3>Next Steps:</h3>
+                <p>✅ Complete application process</p>
+                <p>✅ Prepare for assessment</p>
+                <p>✅ Join 12-week program</p>
+                <p>✅ Land your cloud career!</p>
+            </div>
+            <p style="font-size: 1.5em; margin-top: 30px;">Questions? 🤔</p>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+        <button class="nav-btn" onclick="nextSlide()">Next →</button>
+        <button class="nav-btn" onclick="startPresentation()">Start Over</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
