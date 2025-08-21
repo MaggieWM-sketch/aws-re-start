@@ -148,6 +148,3 @@ Styling problems:
 
 
 
-**Good luck with your AWS re/Start interview!** 🌟
-
-Remember: Confidence, enthusiasm, and clear communication are just as important as the technical content. You've got this! 💪
